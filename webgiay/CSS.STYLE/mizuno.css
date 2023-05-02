@@ -1,0 +1,111 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/* phan dau header */
+.header {
+  background-color: #67ccd3;
+}
+.headerElement {
+  display: flex;
+  justify-content: space-around;
+  border: 1px solid rgb(247, 226, 226);
+  padding-top: 20px;
+}
+.headerElement h2:hover {
+  background-color: rgba(233, 215, 19, 0.823);
+  width: 210px;
+  height: 45px;
+}
+a i {
+  font-size: 30px;
+  color: #100e0d;
+}
+.headerElement a {
+  text-decoration: none;
+  color: #0a0a0b;
+}
+.btn {
+  margin-bottom: 30px;
+}
+.headerElement button:hover {
+  background-color: rgba(233, 215, 19, 0.823);
+}
+
+/* list trang con */
+/* list */
+.listProduct {
+  text-align: center;
+  width: 80%;
+  margin-left: 100px;
+  padding-bottom: 20px;
+}
+.listProduct a {
+  color: rgb(10, 10, 10) !important;
+  text-decoration: none;
+  line-height: 40px;
+}
+.listProduct a:hover {
+  height: 40px;
+  width: 40px;
+  background-color: rgba(222, 182, 24, 0.916);
+}
+
+/* phan than */
+.bodyContainer {
+  text-align: center;
+  color: hotpink;
+  background-color: #155df7ee;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.bodyContainer h3 {
+  font-style: italic;
+  color: rgb(243, 237, 246);
+  font-size: 40px;
+}
+
+/* phan than 2 content */
+.listImg img {
+  height: 300px;
+  width: 300px;
+}
+.listImg {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+.bodyElement {
+  border: 2px solid rgb(244, 249, 245);
+  background-color: #9f9897ce;
+}
+.bodyElement p {
+  color: #0a0a0b;
+}
+.bodyElement button {
+  background-color: rgba(63, 63, 247, 0.716);
+}
+
+/* phần cuối */
+
+.footerElement {
+  background-color: #67ccd3;
+}
+.newContent h3 {
+  color: #0f0e0e;
+  text-align: center;
+}
+.newContent {
+  background-color: #a8a8a4;
+}
+
+.cyborg {
+  background-color: #67ccd3;
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 50px;
+  color: rgb(20, 22, 22);
+}
