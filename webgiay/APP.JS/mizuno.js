@@ -84,6 +84,6 @@ let data = [
     img: "./IMG./mizuno img/mizuno12.jpeg",
   },
 ];
-localStorage.setItem("data",JSON.stringify(data));
-let data=JSON.parse(localStorage.getItem("products"));
-let cart = 
+// localStorage.setItem("data",JSON.stringify(data));
+// let data=JSON.parse(localStorage.getItem("products"));
+// let cart = 

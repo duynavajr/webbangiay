@@ -84,3 +84,8 @@ let data = [
     img: "./IMG./adidas12.webp",
   },
 ];
+localStorage.setItem("data", JSON.stringify(data));
+console.log("data");
+// let data = JSON.parse(localStorage.getItem("data"));
+// let cart = JSON.parse(localStorage.getItem("cart"));
+let resultCart = document.getElementById("result");

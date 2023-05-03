@@ -91,7 +91,7 @@ let cart = JSON.parse(localStorage.getItem("cart"));
 let resultCart = document.getElementById("result");
 
 cart.forEach((element) => {
-  
+
 });
 
 let listImgElement = document.getElementById("listImg");
