@@ -1,8 +1,8 @@
-// let cart = JSON.parse(localStorage.getItem("products"));
-// let cart = [];
-let cart = JSON.parse(localStorage.getItem("cart")) || []
-console.log(cart);
-// localStorage.setItem("cart", JSON.stringify(cart));
+// let cart = JSON.parse(localStorage.getItem("data"));
+
+let cart = JSON.parse(localStorage.getItem("cart")) || [];
+// console.log(cart);
+localStorage.setItem("cart", JSON.stringify(cart));
 
 let giay = document.getElementById("list-giay");
 
@@ -64,7 +64,6 @@ giay.onclick = function (e) {
     renderNikeCart(products);
   }
 };
-
 
 // let input = document.getElementsByClassName('sl-sanpham')[0]
 // console.log(input);
